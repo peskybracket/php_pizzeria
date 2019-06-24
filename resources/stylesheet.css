@@ -1,0 +1,193 @@
+header {
+     background-color: lightgray;
+ }
+
+ body {
+     background-color: aliceblue;
+
+     padding: 0 10%;
+ }
+header{
+    background-image: url(pizzabanner.jpg);
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 10em;
+}
+.hidden{
+    display:none;
+}
+
+ footer {
+     background-color: darkgray;
+ }
+
+ .error {
+     color: red;
+     font-size: 1.2em;
+ }
+
+#pizzaForm{
+    display: none;
+}
+
+ /*clearfix */
+ .cf:after {
+     content: "";
+     display: block;
+     padding-bottom: 0;
+ }
+.cellSelected{
+    background-color: aqua;
+}
+        table{ width: 80%;}
+table,td{
+    border: 1px solid darkgrey;
+}
+footer{
+    clear:both;
+    height: 3em;
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 1em auto;
+}
+#mainSection{
+    width: 65%;
+    float: left;
+}
+#sideBarRight{
+    width: 30%;
+    float: right;
+}
+#totaalCel{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+h1{
+    margin-top: 2em;
+}
+.lijnTotaal,#totaalCel{
+    padding-right: 0.5em;
+    text-align: right;
+}
+input[type="text"]{
+    text-align: right;
+}
+
+.showIngredients{
+    border: 3px solid darkgray;
+    border-radius: 5px;
+    padding: 0.3em;
+    color: darkgray;
+}
+.popup{
+    border: 3px solid lightgray;
+    background-color: antiquewhite;
+    height: auto;
+    padding-right: 1em;
+}
+.popup li{
+    list-style: square;
+    color: darkslategray;
+}
+.showOnJoin{
+    visibility: hidden;
+}
+.row{
+    width: 90%;
+    padding: 0 auto;
+}
+form{
+    clear: both;
+}
+.col{
+    width: 45%;
+    display: block;
+    float: left;
+}
+.col input,.col input[type=button],.col input [type=submit]{
+    clear: both;
+}
+.finalizeButton{
+    width: 30%;
+    height: auto;
+    padding: 2em;
+    color: darkslategray;
+    background-color: aliceblue;
+    border: 5px solid lightgray;
+    border-radius: 7px;
+}
+.cf {
+    overflow: visible;
+}
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#joinFormWrapper,#loginFormWrapper{
+    clear:both;
+}
+#topMenu {
+    width: 100%;
+    border-bottom: 3px solid darkgreen;
+    margin: 0;
+    padding: 0;
+}
+#topMenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#topMenu li{
+    width: auto;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0 1em;
+}
+.activeConfigLink{
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    border-bottom: none;
+    border-radius: 5px;
+}
+
+ul{
+    list-style: none;
+}
+.pizzaIngredient{
+    margin-top: 5px;
+    font-size: 1em;
+    line-height: 1em;
+    height: 1em;
+    background-color: #DDD;
+    color: #345;
+    width: auto;
+    display: inline-block;
+    padding: .3em 1em;
+}
+.heeftIngredient{
+    font-size: 1em;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bolder;
+    width: auto;
+    display: inline-block;
+    padding: .3em 1em;
+
+    line-height: 1em;
+}
+.row{
+    clear: both;
+}
+input[name=aantal],
+input[name=btnPlus],
+input[name=btnMin]{
+    width: 1em;
+}
